@@ -26,8 +26,7 @@ const eventoSchema = new mongoose.Schema({
         trim: true,
     },
     imagem: {
-        type: String,
-        required: true,
+        type: String,        
         trim: true,
     },
     criadoEm: {
